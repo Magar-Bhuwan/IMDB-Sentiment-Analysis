@@ -4,6 +4,9 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 
+st.write("Current Directory:", BASE_DIR)
+st.write("Model Exists:", (BASE_DIR / "IMDB" / "SVM_model.joblib").exists())
+st.write("Vector Exists:", (BASE_DIR / "IMDB" / "Word2Vec_imdb_250.joblib").exists())
 # Load Model
 analyser_object = SentimentAnalyser(
     model_path=BASE_DIR.parent / "Streamlit" / "IMDB" / "SVM_model.joblib",
