@@ -3,8 +3,6 @@
 venv/
 __pycache__/
 *.pyc
-# *.joblib
-# *.pkl
 *.h5
 *.csv
 
@@ -13,5 +11,4 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Specific CSV files to ignore
-# IMDB/SVM_model.joblib
-# IMDB/Word2Vec_imdb_250.joblib
+
