@@ -79,12 +79,6 @@ Example output for a negative movie review.
 ```text
 IMDB SENTIMENTAL ANALYSIS/
 │
-├── IMDB/
-│   ├── IMDB_sentiment.ipynb
-│   ├── IMDB_Dataset.csv                            (Ignored)
-│   ├── SVM_model.joblib                            (Ignored)
-│   └── Word2Vec_imdb_250.joblib                    (Ignored)    
-│
 ├── Output/
 │   ├── Home Page.jpg
 │   ├── Negative Sentimental Analysis.jpg
@@ -92,6 +86,12 @@ IMDB SENTIMENTAL ANALYSIS/
 │   └── User Input_page-0001.jpg
 │
 ├── Streamlit/
+│   ├── IMDB/
+│   │   ├── IMDB_sentiment.ipynb
+│   │   ├── IMDB_Dataset.csv                            (Ignored)
+│   │   ├── SVM_model.joblib                            (Ignored)
+│   │   └── Word2Vec_imdb_250.joblib                    (Ignored)    
+│   │
 │   ├── streamlit_app.py
 │   └── utils.py
 │

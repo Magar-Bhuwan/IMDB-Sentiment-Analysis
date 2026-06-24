@@ -1,10 +1,13 @@
 import streamlit as st
 from utils import SentimentAnalyser
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
 
 # Load Model
 analyser_object = SentimentAnalyser(
-    model_path="Streamlit/IMDB/SVM_model.joblib",
-    vector_path="Streamlit/IMDB/Word2Vec_imdb_250.joblib"
+    model_path=BASE_DIR.parent / "Streamlit" / "IMDB" / "SVM_model.joblib",
+    vector_path=BASE_DIR.parent / "Streamlit" / "IMDB" / "Word2Vec_imdb_250.joblib"
 )
 
 # Page Config
@@ -54,7 +57,7 @@ sentiment = ""
 
 if btn_click:
 
-    if len(user_review) > 50:
+    if len(user_review) > 10:
 
         with st.spinner("Analyzing your review..."):
 
@@ -63,7 +66,7 @@ if btn_click:
             )
 
     else:
-        st.warning("⚠️ Please enter at least 50 characters.")
+        st.warning("⚠️ Please enter at least 10 characters.")
 
 # Output
 if sentiment:

@@ -3,6 +3,9 @@ import time
 import joblib
 import numpy as np
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
 
 LABELS = {
     0 : "Negative", 1 : "Positive"
@@ -66,8 +69,8 @@ class SentimentAnalyser:
 
 if __name__ == "__main__":
     predictor = SentimentAnalyser(
-        model_path="Streamlit/IMDB/SVM_model.joblib",
-        vector_path="Streamlit/IMDB/Word2Vec_imdb_250.joblib"
+        model_path=BASE_DIR.parent / "Streamlit" / "IMDB" / "SVM_model.joblib",
+        vector_path=BASE_DIR.parent / "Streamlit" / "IMDB" / "Word2Vec_imdb_250.joblib"
     )
     result = predictor.prediction_pipeline(
         user_input= "<br>Misery and Stand By Me were the best adaptations up until this one, now you can add Shawshank to that list.<br>This is simply one of the best films ever made and I know I am not the first to say that and I certainly won't be the last. The standing on the IMDb is a true barometer of that. #3 as of this date and I'm sure it could be number 1. So I'll just skip all the normal praise of the film because we all know how great it is. But let me perhaps add that what I find so fascinating about Shawshank is that Stephen King wrote it.<br><br>King is one of the best writers in the world. Books like IT and the Castle Rock series are some of the greatest stories ever told. But his best adaptations are always done by the best directors. The Shining was brilliantly interpreted by Kubrick and of course the aforementioned Misery and Stand By Me are both by Rob Reiner. Now Frank Darabont comes onto the scene and makes arguably the best King film ever."
