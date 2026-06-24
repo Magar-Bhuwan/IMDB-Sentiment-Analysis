@@ -46,7 +46,9 @@ https://your-streamlit-app.streamlit.app
 
 ### 🏠 Home Page
 
-/media/suko-magar/LocalDisk/ML with Python/Projects/IMDB Sentimental Analysis/Output/Home Page.jpg
+### 🏠 Home Page
+
+![Home Page](Output/home_page.jpg)
 
 ---
 
