@@ -8,19 +8,11 @@ __pycache__/
 *.h5
 *.csv
 
-# Virtual environment
-.venv/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# VS Code
-.vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
-
 # Specific CSV files to ignore
-/SVM_model.joblib
-/Word2Vec_imdb_250.joblib
+IMDB/SVM_model.joblib
+IMDB/Word2Vec_imdb_250.joblib
+*.joblib
