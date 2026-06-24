@@ -3,8 +3,8 @@ from utils import SentimentAnalyser
 
 # Load Model
 analyser_object = SentimentAnalyser(
-    model_path="/media/suko-magar/LocalDisk/ML with Python/Projects/IMDB Sentimental Analysis/IMDB/SVM_model.joblib",
-    vector_path="/media/suko-magar/LocalDisk/ML with Python/Projects/IMDB Sentimental Analysis/IMDB/Word2Vec_imdb_250.joblib"
+    model_path="Streamlit/IMDB/SVM_model.joblib",
+    vector_path="Streamlit/IMDB/Word2Vec_imdb_250.joblib"
 )
 
 # Page Config
