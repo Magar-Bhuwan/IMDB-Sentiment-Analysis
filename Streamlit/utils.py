@@ -59,7 +59,7 @@ class SentimentAnalyser:
         
         cleaned_text = self.text_processor(user_input)
         vector = self.get_embeddings(
-            cleaned_text.split(" "), vectorizer.wv
+            cleaned_text.split(" "), vectorizer
         )
         
         label = classifier.predict(vector.reshape(1,-1))
