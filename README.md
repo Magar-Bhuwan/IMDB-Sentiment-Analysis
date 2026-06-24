@@ -142,7 +142,6 @@ IMDB SENTIMENTAL ANALYSIS/
 * Removing URLs
 * Removing punctuation
 * Stopword removal
-* Lemmatization
 
 ### 2. Feature Engineering
 
@@ -164,7 +163,6 @@ The model performance is evaluated using:
 
 * Accuracy Score
 * Precision
-* Recall
 * F1 Score
 * Confusion Matrix
 
@@ -190,10 +188,9 @@ Add your actual model performance metrics below.
 
 | Metric    | Score |
 | --------- | ----- |
-| Accuracy  | XX%   |
-| Precision | XX%   |
-| Recall    | XX%   |
-| F1 Score  | XX%   |
+| Accuracy  | 89%   |
+| Precision | 90%   |
+| F1 Score  | 90%   |
 
 ---
 
