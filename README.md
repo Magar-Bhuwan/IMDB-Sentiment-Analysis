@@ -46,7 +46,6 @@ https://your-streamlit-app.streamlit.app
 
 ### 🏠 Home Page
 
-### 🏠 Home Page
 
 ![Home Page](Output/home_page.jpg)
 
