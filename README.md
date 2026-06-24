@@ -46,8 +46,7 @@ https://your-streamlit-app.streamlit.app
 
 ### 🏠 Home Page
 
-
-![Home Page](Output/home_page.jpg)
+![Home Page](Output/Home%20Page.jpg)
 
 ---
 
@@ -55,7 +54,7 @@ https://your-streamlit-app.streamlit.app
 
 Users enter a movie review for sentiment prediction.
 
-/media/suko-magar/LocalDisk/ML with Python/Projects/IMDB Sentimental Analysis/Output/User Input_page-0001.jpg
+![User Input](Output/User%20Input_page-0001.jpg)
 
 ---
 
@@ -63,7 +62,7 @@ Users enter a movie review for sentiment prediction.
 
 Example output for a positive movie review.
 
-!/media/suko-magar/LocalDisk/ML with Python/Projects/IMDB Sentimental Analysis/Output/Positive Sentimental Analysis.jpg
+![Positive Sentiment](Output/Positive%20Sentimental%20Analysis.jpg)
 
 ---
 
@@ -71,7 +70,7 @@ Example output for a positive movie review.
 
 Example output for a negative movie review.
 
-/media/suko-magar/LocalDisk/ML with Python/Projects/IMDB Sentimental Analysis/Output/Negative Sentimental Analysis.jpg
+![Negative Sentiment](Output/Negative%20Sentimental%20Analysis.jpg)
 
 ---
 
@@ -82,9 +81,9 @@ IMDB SENTIMENTAL ANALYSIS/
 │
 ├── IMDB/
 │   ├── IMDB_sentiment.ipynb
-│   ├── IMDB_Dataset.csv
-│   ├── SVM_model.joblib
-│   └── Word2Vec_imdb_250.joblib
+│   ├── IMDB_Dataset.csv                            (Ignored)
+│   ├── SVM_model.joblib                            (Ignored)
+│   └── Word2Vec_imdb_250.joblib                    (Ignored)    
 │
 ├── Output/
 │   ├── Home Page.jpg
@@ -98,7 +97,7 @@ IMDB SENTIMENTAL ANALYSIS/
 │
 ├── README.md
 ├── requirements.txt
-└── .gitignore
+└── .gitignore                                      (Ignored)
 ```
 
 ---
